@@ -1,0 +1,26 @@
+{
+  "name": "privacy-intelligence-saas",
+  "version": "1.0.0",
+  "description": "Real-time privacy intelligence SaaS platform with viral growth engine",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@supabase/supabase-js": "^2.38.0",
+    "@stripe/stripe-js": "^1.46.0",
+    "recharts": "^2.10.0",
+    "ua-parser-js": "^1.0.37"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0"
+  }
+}
